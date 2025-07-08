@@ -1,38 +1,55 @@
-# Byte-compiled / optimized / DLL files
+# =========================
+# 🐍 Python
+# =========================
 __pycache__/
 *.py[cod]
 *$py.class
+*.log
+*.sqlite3
+*.egg-info/
+build/
+dist/
 
-# Virtual environment
+# =========================
+# 📦 Virtual Environment
+# =========================
 venv/
-.env
+ENV/
+env/
+.venv/
 
-# Environment variables
+# =========================
+# 🔐 Secrets & Environment
+# =========================
 .env
 .env.*
+*.key
+*.pem
 
-# Streamlit logs & cache
+# =========================
+# 📊 Streamlit
+# =========================
 .streamlit/
 **/.streamlit/
 
-# Jupyter Notebook checkpoints (if any)
-.ipynb_checkpoints
+# =========================
+# 📓 Jupyter Notebooks
+# =========================
+.ipynb_checkpoints/
 
-# OS files
+# =========================
+# 🖼️ Media & Assets
+# =========================
+screenshot*.png
+
+# =========================
+# 💻 VS Code
+# =========================
+.vscode/
+
+# =========================
+# 💻 macOS & Windows
+# =========================
 .DS_Store
 Thumbs.db
 
-# VSCode settings (optional)
-.vscode/
-
-# Python package builds
-build/
-dist/
-*.egg-info/
-
-# Screenshots or temp files (if needed)
-screenshot*.png
-
-# Others (optional, depending on your use)
-*.log
-*.sqlite3

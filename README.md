@@ -1,5 +1,10 @@
-# 🧠 LLM Prompt Evaluator
+.# 🧠 LLM Prompt Evaluator
 
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)
+![Streamlit](https://img.shields.io/badge/Built%20with-Streamlit-ff4b4b)
+![OpenAI](https://img.shields.io/badge/OpenAI-API-green)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![GitHub Repo stars](https://img.shields.io/github/stars/SDas312/llm-promptevaluator?style=social)
 An interactive web app built with Streamlit that lets you evaluate LLM (Large Language Model) prompts using OpenAI's API. Choose from predefined tasks like translation, summarization, or grammar correction, and instantly see the output.
 
 ---
